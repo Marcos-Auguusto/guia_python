@@ -1,0 +1,37 @@
+#transportes = []
+
+#transportes.append('Ducatti')
+#transportes.append('Monark')
+#transportes.append('porsche')
+#transportes.append('bugatti')
+#transportes.insert(0,'Bross')
+#del transportes[1]
+
+#print(transportes)
+
+#motorcycles = ['honda', 'yamaha', 'suzuki']
+#print(motorcycles)
+
+#popped_motorcycle = motorcycles.pop()
+#print(popped_motorcycle)
+
+#motorcycles = ['honda', 'yamaha', 'suzuki']
+#first_owned = motorcycles.pop(0)
+#last_owned = motorcycles.pop()
+#print('The first motorcyle I owned was a ' + first_owned .title() + '.')
+#print('The last motorcycle I owned was a ' + last_owned.title() + '.')
+
+#motorcycles = ['honda', 'yamaha', 'suzuki']
+#motorcycles.remove('honda')
+#print(motorcycles)
+
+
+#motorcycles = ['honda', 'yamaha', 'suzuki']
+#too_expensive = 'honda'
+#motorcycles.remove(too_expensive)
+
+#print(motorcycles)
+#print('\nA ' + too_expensive.title() + ' is too expensive for me.')
+
+
+
