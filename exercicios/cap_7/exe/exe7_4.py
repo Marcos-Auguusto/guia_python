@@ -1,27 +1,27 @@
-print('Digite "quit" para sair!')
-print('-----------------------')
+lista_ingr = []
+
+print("Escolha uma opção:")
+
 while True:
-    inp_ingred = input('Digite alguns ingredientes que você precisa para fazer sua pizza: ')
+    opcao = input("[i]nserir [a]pagar [l]istar [s]air ")
     
-    if inp_ingred == 'quit':
+    if opcao == "i":
+        add_item = input("Qual item você deseja adicionar? ")
+        lista_ingr.append(add_item)
+    elif opcao == "a":
+        delet_item = input("Qual item deseja apagar? Exemplo: 1, 2...")
+        int_input_del = int(delet_item)
+        del lista_ingr[int_input_del]
+    elif opcao == "l":
+        for i, items in enumerate(lista_ingr):
+            print(i, items)
+    elif opcao == "s":
         break
     else:
-        print('Você adicionou ' + inp_ingred + ',' \
-                + ' à sua lista de ingredientes!')
+        print("Você precisa selecionar uma opção!")
     
-    more_ingred = input('\nDeseja adicionar mais algum igrediente?' \
-                                             + ' Sim ou não? ')
-    
-    if more_ingred.lower() == 'sim':
-        inp_more = input('Qual igrediente deseja adicionar? ')
-        print('Você adicionou ' + inp_ingred + ', ' + inp_more + \
-                                    ' à sua lista de ingredientes!')
-    elif more_ingred == 'não':
-        break
-    elif more_ingred != 'Sim ou não':
-        print('Você precisa digitar "sim" ou "não".' + more_ingred) #preciso que retorne a pergunta
-    elif more_ingred == 'quit':
-        break
+
+
            
 
 

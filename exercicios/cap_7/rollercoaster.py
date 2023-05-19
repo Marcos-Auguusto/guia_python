@@ -1,5 +1,6 @@
 height = input("How tall are you, in inches?")
 height = int(height)
+
 #não precisa renomear a váriavel que converte em int. Exemplo "int_height'.
 
 if height >= 36:
