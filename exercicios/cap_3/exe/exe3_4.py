@@ -1,4 +1,5 @@
 #acessando elementos de uma lista
+
 guests = ['amigos', 'familiares', 'inimigos']
 
 print('Gostaria de convidar para um jantar meus', guests[0] )

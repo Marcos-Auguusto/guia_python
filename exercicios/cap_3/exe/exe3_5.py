@@ -1,6 +1,7 @@
 guests = ['amigos', 'familiares', 'inimigos']
 not_come = 'inimigos'
 guests.append('melhores amigos')
+
 #acrescentando elementos em uma lista
 
 print('Gostaria de convidar para um jantar meus ' + guests[0] + '.')

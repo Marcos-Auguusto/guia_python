@@ -17,10 +17,13 @@ print('-----------')
 print(guests[0].title() +', conto com a presença de vocês!')
 print(guests[1].title() +', conto com a presença de vocês!')
 print('-----------')
+
 #O método pop() remove o último item de uma lista, mas permite que
 #você trabalhe com esse item depois da remoção.
 
 del guests[0]
 del guests[0]
+
 #removendo elementos de uma lista
+
 print('Número de convidados confirmado é:', guests)

@@ -2,7 +2,7 @@ pizzaFav = ['Portuguesa', 'Frango c/ catupiry', '3 queijos', 'Margarita', 'Calab
 friendsPizza = pizzaFav[:]
 
 pizzaFav.append('Do cliente')
-friendsPizza .append('Da casa')
+friendsPizza.append('Da casa')
 
 for allPizza in pizzaFav:
     pizzaFav = allPizza
